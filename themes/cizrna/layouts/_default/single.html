@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div 
+	style="
+		background-size: 100%;
+		background-position-y: 15%;
+		"
+	class="
+		bg-main	
+		font-serif
+	">
+	<div class="
+		px-4 py-16 lg:px-32 pb-16 
+		bg-white mix-blend-screen">
+
+		{{- partial "header.html" . -}}
+
+
+		<div class="prose">
+		<h1>{{ .Title }}</h1>
+		{{ .Content}}
+		</div>
+	</div>
+</div>
+
+
+{{ end }}

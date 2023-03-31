@@ -1,0 +1,126 @@
+	{{ define "main" }}
+<div class="bg-main" style="
+	background-size: 100%;
+	background-position-y: 15%;
+	">
+	<div class="h-screen gap-5 mx-4 flex flex-col justify-center
+				text-white text-xl md:text-4xl
+		">
+		<img class="filter invert md:w-[54rem] mx-auto" 
+		src="/falafel-napis-white.svg" >
+		{{ partial "menu.html" . }}
+	</div>
+	<div
+		id="music"
+		class="h-fit min-h-screen
+				font-serif text-black
+
+				flex flex-row
+				flex-wrap
+				w-full
+				">
+		<div class="
+					pt-24 p-4 md:p-32
+					bg-white mix-blend-screen
+					w-full lg:w-1/2
+					">
+			<div  class="text-6xl 2xl:text-8xl font-bold mb-4">
+				Demo 2022
+			</div>
+			<div class="text-xl 2xl:text-3xl font-bold mb-6">
+				Písníčky, s kterými to všechno začalo.
+			</div>
+
+			<iframe class="mb-8 w-full" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1593569533%3Fsecret_token%3Ds-iSOrr8X41zx&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fall-fell" title="fall &amp; fell" target="_blank" style="color: #cccccc; text-decoration: none;">fall &amp; fell</a> · <a href="https://soundcloud.com/fall-fell/sets/demo-2022/s-iSOrr8X41zx" title="Demo 2022" target="_blank" style="color: #cccccc; text-decoration: none;">Demo 2022</a></div>
+
+			<div class="text-xl font-light mb-4">
+				Nahráno ve studiu Unart Slavičín během roku 2022 a začátkem roku 2023.
+			</div>
+			<div class="text-lg font-light italic mb-6">
+				Zvukový technik: Franta Šebák<br>
+				Mix: Ondřej Machů a Lukáš Dulík<br>
+				Grafika: Klára Skovajsová<br>
+			</div>
+
+		</div>
+
+		<div class="px-4 pb-16 lg:px-0 lg:pb-0 w-full lg:w-1/2
+			bg-white
+			flex justify-center">
+			<img class="lg:w-2/3 mix-blend-normal my-auto" src="/falafelnatripu.jpg">
+		</div>
+
+	</div>
+</div>
+
+<div
+		id="about"
+		style="
+			background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url('/3.jpg');
+			background-size: cover;
+			background-position-y: 40%;
+			background-position-x: center;
+		"
+
+		class="
+			pb-16 pt-24 p-4 md:px-32
+			h-fit min-h-screen
+			font-serif text-white">
+
+	<div class="brightness-100">
+		<div class="text-6xl 2xl:text-8xl font-bold mb-4">
+			O nás
+		</div>
+		<div class="text-lg prose prose-invert font-light mb-6">
+			{{ .Content }}
+		</div>
+	</div>
+
+
+</div>
+<div class="bg-main" style="
+	background-size: 100%;
+	background-position-y: 15%;
+	">
+	<div
+		id="contact"
+		class="h-fit md:min-h-screen
+				font-serif text-black
+
+				flex flex-row
+				flex-wrap
+				w-full
+				">
+		<div class="
+					pt-24 p-4 md:p-32
+					bg-white mix-blend-screen
+					w-full lg:w-1/2
+					md:flex flex-col justify-center
+					">
+			<div  class="text-6xl 2xl:text-8xl font-bold mb-4">
+				Kontakt
+			</div>
+
+			<div class="text-xl font-light  mb-6">
+				email: <span class="italic hover:text-blue-900">fallafell@unart.cz</span><br>
+				instagram: <a class="hover:text-blue-900" target=”_blank” href="https://instagram.com/fallafellmusic">
+				<span class="italic">@fallafellmusic</span></a><br>
+				facebook: <a target=”_blank” class="hover:text-blue-900" href="https://facebook.com/fallafellmusic">
+				<span class="italic">@fallafellmusic</span></a><br>
+			</div>
+
+		</div>
+
+		<div class="px-4 lg:pr-32 pb-16 lg:pl-0 lg:pb-0 w-full lg:w-1/2
+			bg-white
+			flex justify-center">
+			<img class="lg:w-full mix-blend-normal my-auto"
+			src="/R1-23.jpeg">
+		</div>
+
+	</div>
+
+</div>
+
+{{ end }}

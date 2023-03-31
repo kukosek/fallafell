@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.LanguageCode }}'>
+{{ partial "head.html" . }}
+
+<body >
+    {{- partial "dev/dev-tools.html" . -}}
+    <main class="w-full">
+        {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>

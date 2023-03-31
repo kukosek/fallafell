@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div 
+	style="
+		background-size: 100%;
+		background-position-y: 15%;
+		"
+	class="
+		bg-main	
+		font-serif
+	">
+	<div class="
+		px-4 py-16 lg:px-32 pb-16 
+		bg-white mix-blend-screen">
+
+		{{- partial "header.html" . -}}
+
+		<table class="table-auto border-separate border-spacing-x-3 text-left">
+			<tbody>
+				{{ range .Pages }}
+				<tr class="hover:text-blue-900">
+					<th>
+						<a 
+							href="{{ .Permalink }}" >
+				{{ replace (.Date | time.Format ":date_medium") " " " " }}  
+						</a>
+					</th>
+					<th class="font-normal">
+						<a 
+							href="{{ .Permalink }}" >
+							{{ .Title }}
+						</a>
+					</th>
+				</tr>
+				{{ end }}
+			</tbody>
+		</table>
+
+		<div class="prose">
+		{{ .Content}}
+		</div>
+	</div>
+</div>
+
+
+{{ end }}

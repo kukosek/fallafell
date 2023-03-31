@@ -1,0 +1,10 @@
+baseURL = 'http://fallafell.cz/'
+defaultContentLanguage = 'cs'
+languageCode = 'cs_CZ'
+title = 'fall & fell'
+timeout = '5m'
+theme = ["cizrna", "hugo-shortcode-gallery"]
+buildFuture = true
+
+[build]
+  writeStats = true
