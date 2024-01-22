@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fallafell
+  labels:
+    app: fallafell
+  annotations:
+    keel.sh/policy: all
+    keel.sh/trigger: poll
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fallafell
+  template:
+    metadata:
+      labels:
+        app: fallafell
+    spec:
+      containers:
+      - name: fallafell
+        image: docker.dulik.net/fallafell:latest
+        ports:
+        - containerPort: 80
+        imagePullPolicy: Always
+      imagePullSecrets:
+      - name: registrypullsecret

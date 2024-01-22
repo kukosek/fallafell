@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: fallafell-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+    - fallafell.cz
+    secretName: fallafell-tls
+  rules:
+  - host: fallafell.cz
+    http:
+      paths:
+      - backend:
+          serviceName: fallafell
+          servicePort: 80

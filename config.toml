@@ -1,4 +1,4 @@
-baseURL = 'http://fallafell.cz/'
+baseURL = 'https://fallafell.cz/'
 defaultContentLanguage = 'cs'
 languageCode = 'cs_CZ'
 title = 'fall & fell'
