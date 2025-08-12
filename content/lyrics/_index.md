@@ -2,6 +2,117 @@
 title: "Texty"
 ---
 
+# Noviny
+
+Noviny mně nedělají dobře  
+Ten svět je někde jinde  
+Plameny vidím všude  
+Pralesy nám hoří  
+
+Klávesy působí na mě zle  
+Kolik not můžou vydat  
+Kolik not můžou zahrát  
+Kolik srdcí rozbít  
+
+
+*CHORUS*
+
+Já ji mám rád  
+Víc než celý svět  
+V písku si hrát  
+A nic nevědět  
+
+Já to mám rád   
+Když spíš vedle mně  
+Deska co znáš   
+Nás rozchvěje  
+
+Každou chvíli zuří ve mně vztek  
+Politika je špatná   
+A klima krize drahá  
+Nikdy se nevzdám   
+
+Společně děláme underground   
+A vy dobře vite  
+Že nás nezastavíte  
+Protest je síla  
+
+*CHORUS*
+
+Já ji mám rád  
+Víc než celý svět  
+V písku si hrát  
+A nic nevědět  
+
+Já to mám rád   
+Když spíš vedle mně  
+Deska co znáš   
+Nás rozchvěje  
+
+
+*RAP*
+
+Poslední patro v domě  
+ve výšce 100 metrů  
+myšlenky o robotě  
+hážeme 5 metrů  
+na představenstvo firmy  
+kusy té zeleniny   
+co hnije na okraji  
+dědiny v sudetách  
+
+Roboti v agro farmě   
+zamlouvají se dámě   
+co hledá nápady  
+na válečné novoty  
+vyzbrojit roboty  
+to je vaším snem abyste  
+nemuseli hledat vojáky každý den  
+
+Mariupol   
+a nad hlavou ti sviští ruský dron  
+Je to jako RUR  
+Karel Čapek to věděl  
+hrůzy dnešní války do detailů předpověděl  
+
+Ať je to traktor  
+anebo kombajn  
+veletrh IDET  
+válečný design  
+…  
+všechno je to na nic   
+jenom lidské utrpení   
+z dílny Boston Dynamics  
+  
+
+
+Poslední patro v domě   
+rozhled na 100 metrů  
+kam až se dostanu   
+za 10 roků   
+já chci bydlet s tebou  
+a ne s nikým jiným  
+možné je fakt všecko  
+a já nikdy nevím  
+
+Chceš se vdát  
+za pěkného muže  
+co nikdy nic nezmůže   
+a přesto se nevzdává   
+
+Chceš se vdát  
+za pěkného muže  
+co nikdy nic nezmůže   
+a přesto se nevzdává   
+
+Boje za svobodu  
+za solidaritu  
+proti všem fašounům  
+co nám ničí planetu  
+obdivuju ty co se nebojí jít s pravdou ven  
+svět je špatný, říkám: kéž by to byl jen zlý sen.  
+
+
 # Life Alive
 
 *VERSE*  
